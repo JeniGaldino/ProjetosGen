@@ -1,0 +1,17 @@
+fun main() {
+    println("Geraldão - Oba!")
+    println("Cornélius - Opa!")
+    println("Geraldão - Bão?")
+    println("Cornélius - Bão e oce sô?")
+    println("Geraldão - Bão também...")
+    println("Cornélius - e cadê a cumadi?")
+    println("Geraldão - Homi, cê mão sabe")
+    println("Cornélius - sei mesmo não...")
+    println("Geraldão - Peguei ela fugindo da casa do Ricardo, pela janela...Sem um sapato")
+    println("Cornélius - Mentira?")
+    println("Geraldão - Pois é homi, tô arrasado")
+    println("Cornélius - Eu avisei que Ricardo não prestava")
+    println("Geraldão - Eu nunca imaginei, sabe..")
+    println("Cornélius - Mas fique tranquilo Geraldo, um homem sem chifres é um homem indefeso...")
+    println("*Geraldo levanta e sai andando em silêncio*")
+}
