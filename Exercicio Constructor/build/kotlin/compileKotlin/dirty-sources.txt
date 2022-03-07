@@ -1,0 +1,3 @@
+C:\Users\pc\Desktop\ProjetosGen\Exercicio\src\main\kotlin\clientforms\Cliente.kt
+C:\Users\pc\Desktop\ProjetosGen\Exercicio\src\main\kotlin\clientedata\ClienteData.kt
+C:\Users\pc\Desktop\ProjetosGen\Exercicio\src\main\kotlin\Main.kt

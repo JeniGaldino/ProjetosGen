@@ -1,9 +1,17 @@
 class Clientes {
-
+//Atributos
     var nome = ""
     var idade = 0
     var genero = ""
     var localidade = ""
+
+    override fun toString(): String {
+        return "Seu nome $nome"
+        "Sua idade $idade"
+        "Seu gênero é $genero"
+        "Sua localidade $localidade"
+    }
+//métodos
     var planoa= 80.0
     var planob= 100.0
     var planoc= 250.0
