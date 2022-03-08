@@ -1,36 +1,52 @@
 import Construc.Clientes
 fun main() {
-    val opc = readLine()!!.toInt()
-    println("Olá! Por favor, digite seu nome para começarmos: ")
-    val nome = readLine()!!
-    println("Agora digite seu endereço: ")
-    val endereco = readLine()!!
-    println("Por último, por favor, adicione o telefone ")
-    val telefone = readLine()!!
 
-    try{
-    val dados = Clientes(nome, endereco, telefone)
-        while(true){
+        println("Olá! Por favor, digite seu nome para começarmos: ")
+        val nome = readLine()!!
+        println("Agora digite seu endereço: ")
+        val endereco = readLine()!!
+        println("Por último, por favor, adicione o telefone ")
+        val telefone = readLine()!!
+        var dados = Clientes(nome, endereco, telefone)
 
 
-            println("Por favor, escolha uma das opções:" +
-                    "1 - Adicionar itens" +
-                    "2 - Remover itens" +
-                    "3 - Remover itens" +
-                    "Qualquer outro valor para sair")
 
-            if(opc == 1){
 
+            while (true) {
+                println("Por favor, digite 1 para adicionar itens, 2 para remover e 3 para listar itens do carrinho, digite qualquer outro valor para encerrar" +
+                        " o programa")
+            var opc = 0
+
+            while (true){
+                println("\nDigite a opção desejada: ")
+
+                try {
+                    var dados = Clientes(nome,endereco, telefone)
+                    opc = readLine()!!.toInt()
+                    break
+                }catch (e: Exception){
+                    println("Valor inválido")
+                }
+            }
+
+                when(opc){
+
+                    1 -> {println("Por favor, digite o item a ser adicionado: ")
+                val item = readLine()!!
+                        dados.additem(item)
+                    }
+                    2 -> {println("Por favor, digite o item a ser removido: ")
+                        val item = readLine()!!
+                        dados.removeitem(item)}
+
+                    3 ->  dados.listagens()
+
+
+                    else ->  break
+                }}
 
 
             }
-        }
-
-    }catch (e: Exception){
-
-    println(e.message)
-
-    }
 
 
 
@@ -39,7 +55,17 @@ fun main() {
 
 
 
-                }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

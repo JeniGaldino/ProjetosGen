@@ -10,11 +10,11 @@ class Clientes(private val nome: String) {
     constructor(nome: String, endereco: String): this (nome){
         this.endereco =endereco
     }
-    constructor(nome: String, endereco: String,telefone:String): this (nome,endereco) {
-        this.telefone=telefone
+    constructor(nome: String, endereco: String, telefone: String): this (nome,endereco) {
+        this.telefone= 0.toString()
     }
 
-    init {
+   /* init {
         if (nome.isEmpty() || endereco.isEmpty() || telefone.isEmpty()) {
 
             throw Exception("Dados incorretos, por favor, digite novamente")
@@ -23,8 +23,8 @@ class Clientes(private val nome: String) {
             println("Dados cadastrados com sucesso!")
 
         }
+*/
 
-    }
 
     fun additem(item:String){
 

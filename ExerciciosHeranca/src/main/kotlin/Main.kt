@@ -1,12 +1,16 @@
 fun main() {
 
-    val dog = Cachorro("Panty" ,15)
-    val horse = Cavalo("Alipio",8)
-    val lazy = Preguiça("Barbs",12)
+    val Panty = Cachorro("Panty" ,15)
+    val Alipio = Cavalo("Alipio",8)
+    val Lazy = Preguiça("Lazy",12)
 
 
-   dog.emitirSom()
-   horse.emitirSom()
-   lazy.emitirSom()
+
+
+            Panty.emitirSom()
+            Alipio.emitirSom()
+            Lazy.emitirSom()
+
+
 
 }

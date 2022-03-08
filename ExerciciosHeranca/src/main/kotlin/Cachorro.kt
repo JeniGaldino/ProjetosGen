@@ -3,7 +3,7 @@ class Cachorro(nome: String, age: Int):Animal(nome, age){
 
 
     override fun agir() {
-        println("Correndo")
+        println("Correndo como um doguinho")
     }
 
     override fun emitirSom() {
