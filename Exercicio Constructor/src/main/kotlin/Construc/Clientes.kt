@@ -1,8 +1,6 @@
-package clientedata
-class  Clientes(nome: String, endereco: String, telefone: String) {
+package Construc
 
-
-class ClienteData(private val nome: String) {
+class Clientes(private val nome: String) {
 
     private var endereco = ""
     private var telefone = ""
@@ -57,14 +55,14 @@ class ClienteData(private val nome: String) {
 
     }
 
-    fun listaListagens(){
+    fun listagens(){
         println("***Total de itens***")
         listaDeCompras.forEach(){
             println(it)
 
         }
 
-    }}}
+    }}
 
 
 

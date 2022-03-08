@@ -1,5 +1,4 @@
-import clientedata.Clientes
-
+import Construc.Clientes
 fun main() {
     val opc = readLine()!!.toInt()
     println("Olá! Por favor, digite seu nome para começarmos: ")
@@ -10,7 +9,7 @@ fun main() {
     val telefone = readLine()!!
 
     try{
-    val dados = Clientes(nome,endereco,telefone)
+    val dados = Clientes(nome, endereco, telefone)
         while(true){
 
 
@@ -22,7 +21,7 @@ fun main() {
 
             if(opc == 1){
 
-                Clientes.additem
+
 
             }
         }
