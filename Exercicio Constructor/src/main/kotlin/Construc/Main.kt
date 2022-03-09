@@ -13,8 +13,11 @@ fun main() {
 
 
             while (true) {
-                println("Por favor, digite 1 para adicionar itens, 2 para remover e 3 para listar itens do carrinho, digite qualquer outro valor para encerrar" +
-                        " o programa")
+                println("Por favor, digite " +
+                        "\n1 para adicionar itens\n" +
+                        "\n2 para remover\n" +
+                        "\n3 para listar itens do carrinho\n" +
+                        "\nDigite qualquer outro valor para encerrar o programa")
             var opc = 0
 
             while (true){

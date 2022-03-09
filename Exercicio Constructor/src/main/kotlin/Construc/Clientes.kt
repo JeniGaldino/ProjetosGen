@@ -16,14 +16,14 @@ class Clientes(private val nome: String) {
 
    /* init {
         if (nome.isEmpty() || endereco.isEmpty() || telefone.isEmpty()) {
-
-            throw Exception("Dados incorretos, por favor, digite novamente")
-        } else {
-
             println("Dados cadastrados com sucesso!")
 
-        }
-*/
+        } else {
+            throw Exception("Dados incorretos, por favor, digite novamente")
+
+
+  */
+
 
 
     fun additem(item:String){
