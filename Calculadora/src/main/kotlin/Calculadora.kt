@@ -1,34 +1,29 @@
-class Calculadora(){
+class Calculadora{
+
+    companion object{
 
 
+        fun add(n1: Double,n2:Double): Double {
+        val result = n1+n2
+            return result
 
-    fun add(nothing: Nothing): Int {
+        }
 
+        fun sub(n1: Double,n2:Double): Double {
+            val result = n1-n2
+            return result
 
-       var result= n1+n2
-        return result
-
+        }
+        fun multi(n1: Double,n2:Double): Double {
+            val result = n1*n2
+            return result
+        }
+        fun div(n1: Double,n2:Double): Double {
+            val result = n1/n2
+            return result
+        }
     }
-    fun sub(nothing: Nothing): Int {
 
-        var result= n1-n2
-        return result
-    }
 
-    fun multi(nothing: Nothing): Int {
-        var  result= n1*n2
-        return result}
-
-    fun div(nothing: Nothing): Int {
-        var result = n1/n2
-        return result
-    }
 
 }
-
-
-
-
-
-
-

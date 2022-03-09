@@ -1,11 +1,5 @@
 fun main() {
 
-    var calc = Calculadora()
-
-    println("Por favor digite dois números: ")
-    var n1 = readln()!!.toInt()
-    var n2 = readln()!!.toInt()
-
 
 
     println(
@@ -19,15 +13,22 @@ fun main() {
 
     when (opc) {
 
-        "+" -> {calc.add(return)}
-        "-" -> {calc.sub(return)}
-        "*" -> {calc.multi(return)}
-        "/" -> {calc.div(return)}
+        "+" ->{
+            println("Por favor digite dois números a serem calculados: ")
+            Calculadora.add(n1 = readln()!!.toDouble(),n2= readln()!!.toDouble())}
 
-    }
+        "-" -> {
+            println("Por favor digite dois números a serem calculados: ")
+            Calculadora.sub(n1 = readln()!!.toDouble(),n2= readln()!!.toDouble())}
+        "*" ->{println("Por favor digite dois números a serem calculados: ")
+            Calculadora.multi(n1 = readln()!!.toDouble(),n2= readln()!!.toDouble())}
+        "/" ->{println("Por favor digite dois números a serem calculados: ")
+            Calculadora.div(n1 = readln()!!.toDouble(),n2= readln()!!.toDouble())}
+
+    }}
 
 
-}
+
 
 
 
