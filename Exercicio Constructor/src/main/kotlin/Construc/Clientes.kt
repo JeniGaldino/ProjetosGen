@@ -24,7 +24,9 @@ class Clientes(private val nome: String) {
 
   */
 
-
+    fun itemTotal(): Int{
+        return listaDeCompras.size
+    }
 
     fun additem(item:String){
 
@@ -61,7 +63,9 @@ class Clientes(private val nome: String) {
             println(it)
 
         }
-
+        fun itemTotal(): Int{
+            return listaDeCompras.size
+        }
     }}
 
 

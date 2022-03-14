@@ -5,7 +5,7 @@ fun main() {
     val Lazy = Preguiça("Lazy",12)
 
 
-
+println("\ud83c\udfcd\ufe0f")
 
             Panty.emitirSom()
             Alipio.emitirSom()
